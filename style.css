@@ -3,16 +3,16 @@
   padding: 0;
   box-sizing: border-box;
 }
-header{
+header {
   width: 100%;
   height: 70px;
-  background-color: lightsalmon;
+  background-color: #ec715f;
 }
-.container{
+.container {
   width: 1024px;
   margin: 0 auto;
 }
-.header-group{
+.header-group {
   width: 1024px;
   height: 70px;
   margin: 0 auto;
@@ -20,22 +20,22 @@ header{
   justify-content: space-between;
   align-items: center;
 }
-.logo{
+.logo {
   width: auto;
   height: 70px;
   text-align: left;
 }
-.nav{
+.nav {
   display: flex;
 }
-.nav-list{
+.nav-list {
   list-style: none;
-  color: #FAFAFA;
+  color: #fafafa;
   margin: 0 30px;
   font-size: 16px;
 }
 
-.main-v{
+.main-v {
   width: 100%;
   height: 650px;
   text-align: center;
@@ -43,27 +43,27 @@ header{
   background-size: cover;
   background-position: center;
 }
-.v-title{
+.v-title {
   padding-top: 200px;
   font-size: 64px;
-  color: #FAFAFA;
+  color: #fafafa;
 }
-.v-text{
+.v-text {
   padding-top: 10px;
   font-size: 20px;
-  color: #FAFAFA;
+  color: #fafafa;
 }
 
-.portfolio{
-  background-color: #ECEFF1;
+.portfolio {
+  background-color: #eceff1;
 }
-.p-title{
+.p-title {
   font-size: 32px;
   color: #000;
   padding-top: 90px;
   text-align: center;
 }
-.p-title::after{
+.p-title::after {
   content: "";
   display: block;
   width: 70px;
@@ -71,119 +71,175 @@ header{
   margin: 8px auto;
   color: #ec715f;
 }
-.p-text{
+.p-text {
   text-align: center;
   padding-top: 30px;
   font-size: 16px;
   color: #000;
 }
-.p-group{
+.p-group {
   display: flex;
   padding: 30px 0 90px 0;
   flex-flow: row wrap;
   width: 920px;
   margin: 0 auto;
 }
-.pn{
+.pn {
   width: 300px;
   height: 250px;
   margin: 10px 10px 0 0;
   background-position: center;
   background-size: cover;
 }
-.pn:nth-child(-n+3){
+.pn:nth-child(-n + 3) {
   margin-top: 0;
 }
-.pn:nth-child(3n){
+.pn:nth-child(3n) {
   margin-right: 0;
 }
-.pg1{
+.pg1 {
   background-image: url(./img/sketch.jpg);
 }
-.pg2{
+.pg2 {
   background-image: url(./img/websuku.png);
 }
-.pg3{
+.pg3 {
   background-image: url(./img/write.jpg);
 }
-.pg4{
+.pg4 {
   background-image: url(./img/webcamp.png);
 }
-.pg5{
+.pg5 {
   background-image: url(./img/talk.jpg);
 }
-.pg6{
+.pg6 {
   background-image: url(./img/webcamp-mother.png);
 }
 
-.Ft-title{
+.Ft-title {
   padding-top: 90px;
   font-size: 32px;
   text-align: center;
 }
-.Ft-text{
+.Ft-text {
   padding-top: 30px;
   text-align: center;
   font-size: 16px;
 }
-.st-group{
+.st-group {
   width: 980px;
   padding: 30px 0 90px 0;
   display: flex;
   margin: 0 auto;
 }
-.st{
+.st {
   width: 320px;
   height: auto;
   font-size: 60px;
   text-align: center;
   margin-right: 10px;
 }
-.st:last-child{
+.st:last-child {
   margin-right: 0;
 }
-.st-title{
+.st-title {
   font-size: 20px;
   padding: 10px 0;
 }
-.st-text{
+.st-text {
   font-size: 16px;
   text-align: left;
 }
 
-.profile{
+.profile {
   background-color: #eceff1;
 }
 
-.p-title{
+.p-title {
   padding-top: 90px;
   font-size: 32px;
   text-align: center;
 }
-.p-text{
+.p-text {
   font-size: 16px;
   text-align: center;
 }
-.pf{
+.pf {
   display: flex;
-  margin: 30px 0 90px 0;
+  padding: 30px 0 90px 0;
 }
-.p-l{
+.p-l {
   width: 50%;
 }
-.p-img{
+.p-img {
   background-image: url(./img/my-icon.jpg);
   width: 250px;
   height: 250px;
   border-radius: 50%;
+  margin: 0 auto;
 }
-.p-r{
+.p-r {
   width: 50%;
 }
-.name{
+.name {
   font-size: 20px;
 }
-.n-text{
+.n-text {
   padding-top: 5px;
   font-size: 16px;
+}
+.skills {
+  font-size: 20px;
+  padding-top: 20px;
+}
+.ct-title {
+  font-size: 32px;
+  padding-top: 90px;
+  text-align: center;
+}
+.ct-text {
+  font-size: 16px;
+  padding-top: 30px;
+  text-align: center;
+}
+.snsgroup {
+  width: 800px;
+  display: flex;
+  padding: 30px 0 90px 0;
+  margin: 0 auto;
+  text-align: center;
+}
+.m-t{
+  width: 50%;
+}
+.m-title{
+  font-size: 20px;
+}
+.mail{
+  padding-top: 5px;
+}
+.t-title{
+  font-size: 20px;
+  padding-top: 20px;
+}
+.tel{
+  padding-top: 5px;
+}
+.fab{
+  font-size: 50px;
+  margin-right: 20px;
+}
+.fab:last-child{
+  margin-right: 0%;
+}
+footer{
+  width: 100%;
+  height: 60px;
+  background-color: #ec715f;
+  text-align: center;
+  line-height: 60px;
+}
+.footer-text{
+  font-size: 16px;
+  color: #fafafa;
 }
